@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Your Profile - The Leadership Thread</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container-large">
+      <div class="header-wrap">
+        <div class="logo-section">
+          <image src="./public/logo.png" class="logo" alt="THE LEADERSHIP THREAD" />
+        </div>
+        <div class="right-section">
+          <div class="user-info">
+            <img src="./public/doctor.jpg" class="user-avatar"></img>
+            <div class="user-details">
+              <span class="user-name">Dr. John Doe</span>
+              <div class="icon-wrap">
+                <img src="./public/angle-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="menu-icon">
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+            </div>
+          </div>
+          <div class="brand-logo">
+            <img src="./public/dental.png" alt="Brand Logo" />
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <section class="hero-section-body">
+    <div class="main-content">
+      <div class="form-container">
+        <h3 class="form-title">Create Your Profile</h3>
+        <form>
+          <!-- Name Section -->
+          <div class="form-section">
+            <div class="section-title">Your Name</div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" class="form-input" placeholder="First Name" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-input" placeholder="Last Name" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Details -->
+          <div class="form-section">
+            <div class="section-title">Contact Details</div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="email" class="form-input" placeholder="Email" />
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-input" placeholder="Mobile No." />
+              </div>
+            </div>
+          </div>
+
+          <!-- Primary Role -->
+          <div class="form-section">
+            <div class="section-title">Select Primary Role:</div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>
+                  Role
+                </label>
+                <select required class="form-select">
+                  <option value=" Specialist">Specialist (Partner)</option>
+                  <option value="owner">Owner</option>
+                  <option value="partner">Partner</option>
+                  <option value="associate">Associate</option>
+                  <option value="others">Others</option>
+                  <option value="hygienist">Hygienist</option>
+                  <option value="practice-director">
+                    Practice Success Director
+                  </option>
+                  <option value="strategic-partner">
+                    Strategic Growth Partner
+                  </option>
+                  <option value="treatment-consultant">
+                    Treatment Consultant
+                  </option>
+                  <option value="custom">Custom Role</option>
+                </select>
+                <div class="angle-down-icon">
+                  <img src="./public/angle-down.svg" alt="Dropdown Icon" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>
+                  Specialty Type
+                </label>
+                <select required class="form-select">
+                  <option value="">Select</option>
+                  <option value="periodontist">Periodontist</option>
+                  <option value="endodontist">Endodontist</option>
+                  <option value="oral-surgeon">Oral Surgeon</option>
+                  <option value="prosthodontist">Prosthodontist</option>
+                </select>
+                <div class="angle-down-icon">
+                  <img src="./public/angle-down.svg" alt="Dropdown Icon" />
+                </div>
+              </div>
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="producer" class="checkbox" />
+              <label for="producer" class="checkbox-label">Is this user a producer?</label>
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="form-section">
+            <div class="section-title">Select Location</div>
+            <div class="form-row">
+              <div class="form-group">
+                <select required class="form-select">
+                  <option value="">Select</option>
+                  <option value="north-america">North America</option>
+                  <option value="europe">Europe</option>
+                  <option value="asia">Asia</option>
+                  <option value="australia">Australia</option>
+                </select>
+                <div class="angle-down-icon">
+                  <img src="./public/angle-down.svg" alt="Dropdown Icon" />
+                </div>
+              </div>
+              <div class="form-group">
+                <select required class="form-select">
+                  <option value="">Select</option>
+                  <option value="usa">United States</option>
+                  <option value="canada">Canada</option>
+                  <option value="uk">United Kingdom</option>
+                  <option value="australia">Australia</option>
+                </select>
+                <div class="angle-down-icon">
+                  <img src="./public/angle-down.svg" alt="Dropdown Icon" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="button-group">
+            <button type="button" class="btn btn-cancel">Cancel</button>
+            <button type="submit" class="btn btn-submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
